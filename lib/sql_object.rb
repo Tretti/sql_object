@@ -6,6 +6,7 @@ require 'sql_object/abstract_object'
 require 'sql_object/view'
 require 'sql_object/stored_procedure'
 require 'sql_object/trigger'
+require 'sql_object/synonym'
 
 module SqlObject
   def self.sql_source_path
