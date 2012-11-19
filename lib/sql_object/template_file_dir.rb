@@ -44,7 +44,7 @@ module SqlObject
         file_name << TemplateFile::EXTENSION
         rel_path = Pathname.new(base_path).join(file_name)
         full_file_path = @search_path.join(rel_path)
-        puts "path: #{full_file_path}"
+        #puts "path: #{full_file_path}"
         return rel_path if File.exists? full_file_path
       end
       puts "found none"
