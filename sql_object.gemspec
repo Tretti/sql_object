@@ -5,7 +5,7 @@ require "sql_object/version"
 Gem::Specification.new do |s|
   s.name        = "sql_object"
   s.version     = SqlObject::VERSION
-  s.authors     = ["Björn Nilsson"]
+  s.authors     = ["Bjorn Nilsson"]
   s.email       = ["bjorn.nilsson@tretti.se"]
   s.homepage    = ""
   s.summary     = "SQL templating/versioning"
